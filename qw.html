@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./qw.css">
+    
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn"><h3>Choose a topic </h3></button>
+        <div class="dropdown-content">
+            <input type="radio" name="topic" value="Capita citys" id="Capitabtn">
+            <label for="Capitabtn" >Capital citys</label>
+            <br>
+            <input type="radio" name="topic" value="food" id="foodbtn">
+            <label for="foodbtn" >food</label>
+            <br>
+            <input type="radio" name="topic" value="animals" id="animalbtn">
+            <label for="animalbtn" >animals</label>
+            <button id="startbtn"> start</button>
+        </div>
+        
+    </div>
+
+    <div class="bigBox">
+        <div>
+           <div class="scorDiv">score: 0</div>
+            
+        </div>
+
+        <div class="headQ">
+            <div class="qbox "> question</div>
+            
+        </div>
+
+
+        <div class="ans">
+            <div class="testDiv">
+                <input type="radio" id="answer1btn" class="answer" name="answer">
+                <label for="answer1btn" class="answerlabel" >answer</label>
+            </div>
+
+            <div class="testDiv">
+                <input type="radio" id="answer2btn" class="answer" name="answer">
+                <label for="answer2btn" class="answerlabel">answer</label>
+      
+            </div>
+
+            <div class="testDiv">
+                <input type="radio" id="answer3btn" class="answer" name="answer">
+                <label for="answer3btn" class="answerlabel">answer</label>
+     
+            </div>
+
+            <div class="testDiv">
+                <input type="radio" id="answer4btn" class="answer" name="answer">
+                <label for="answer4btn" class="answerlabel">answer</label>
+       
+            </div>
+            
+        </div> 
+        <button id="end" class="ab">end quiz</button>
+        <button id="submit" class="ab">submit</button>
+        <button id="skip" class="ab">skip</button>
+
+    </div>
+       
+    <div class="divEnd hide">
+        <button class="ex">X</button>
+        <div class="endDiv"></div>
+    </div>
+    
+    <script src="./qw.js"></script>
+</body>
+</html>
